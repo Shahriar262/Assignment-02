@@ -115,8 +115,72 @@ nav ul a{
   font-size: 1.375rem;
 }
 
-@media screen and (max-width:576px) {
+/* Plants section styles */
+ .plants-container{
+  margin-top: 120px;
+ }
+
+ .plant-title{
+  font-weight: bold;
+  font-size: 3.125rem;
+  text-align: center;
+ }
+ .plant-description{
+  font-size: 1.375rem ;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 16px;
+ }
+
+ .plants-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 49px;
+  row-gap: 30px;
+  column-gap: 30px;
+  width: calc(100% - 300px);
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
   
+ }
+ 
+ .plants-card img{
+  width: 100%;
+  height: auto;
+  display: block;
+ }
+
+ .card-title{
+  font-weight: 500;
+  font-size: 1.375rem;
+  margin-top: 15px;
+ 
+  
+ }
+ .card-price{
+  font-size: 1.375rem;
+  font-weight: bold;
+  margin-top: 15px;
+  
+ }
+ .btn-primary{
+  background-color: #E95A08;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 19px 80px;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-top: 15px;
+ }
+
+ .mobile-br-1, .mobile-br-2, .mobile-br-3{
+  display: none;
+ }
+@media screen and (max-width:576px) {
+  /* nav responsive */
   .nav-links {
     display: none;
   }
@@ -124,7 +188,7 @@ nav ul a{
   .navbar {
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px; /* Add small padding for breathing room */
+    padding: 8px 16px; 
   }
 
   .logo {
@@ -179,4 +243,56 @@ nav ul a{
   .banner-description{
     font-size: 14px;
   }
+
+  /* Plants section responsive */
+  .plant-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 65px;
+  }
+  
+  .plant-description{
+    font-size: 14px;
+    margin-left: 28.5px;
+    margin-right: 28.5px;
+    
+    
+  }
+
+  .plants-content{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 28px;
+    width: calc(100% - 31px);
+    margin-left: 14px;
+    margin-right: 17px;
+    box-sizing: border-box;
+  }
+  .plants-card{
+    width: 100%;
+  }
+  .card-title{
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .card-price{
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .btn-primary{
+    flex: 1 1 171px;
+   min-width: 171px;
+   height: 50px;
+   font-weight: 600;
+   font-size: 1rem;
+   padding: 19px 30.5px;
+  }
+  .mobile-br-1, .mobile-br-2, .mobile-br-3{
+  display: inline;
+ }
+ .mobile-br-12{
+  display: none;
+ }
 }
