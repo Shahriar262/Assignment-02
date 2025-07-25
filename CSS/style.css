@@ -187,7 +187,18 @@ nav ul a{
  }
  .plants-lover-img{
   margin-top: 200px;
+  position: relative;
+  display: inline-block;
+  width: fit-content;
  }
+
+ .badge-img{
+  position: absolute;
+  top: -120px;
+  left: 400px;
+  width: 250px !important;
+  height: 250px !important;
+  }
 .plants-lover-content{
   margin-top: 238px;
   
@@ -195,6 +206,7 @@ nav ul a{
 .plants-lover-img img{
   width: 540px;
   height: 597px;
+  display: block;
 }
 .plants-lover-content ul{
   margin-top: 20px;
