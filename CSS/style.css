@@ -495,13 +495,7 @@ nav ul a{
 
 
 @media screen and (max-width:576px) {
-  html,body{
-    overflow-x: hidden;
-    width: 100%;
-  }
-  *{
-    box-sizing: border-box;
-  }
+  
   /* nav responsive */
   .nav-links {
     display: none;
