@@ -494,8 +494,17 @@ nav ul a{
 
 
 
-@media screen and (max-width:576px) {
-  
+@media screen and (max-width: 576px) {
+ html,body{
+  overflow-x: hidden;
+  max-width: 100%; 
+  margin: 0;
+  padding: 0;
+ }
+ *{
+  box-sizing: border-box;
+ }
+ 
   /* nav responsive */
   .nav-links {
     display: none;
