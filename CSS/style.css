@@ -664,7 +664,9 @@ nav ul a{
   .plants-br-44{
     display: none;
   }
-
+   .badge-img{
+    display: none !important;
+   }
   /* deals responsive */
   .deals-grid{
     grid-template-columns: 1fr;
